@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activites.Activites.ItemDescriptionActivity">
+    
+    <ImageView
+        android:id="@+id/selected_item_Image"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:padding="20dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/insert_photo_24"
+        />
+    <TextView
+        android:id="@+id/selected_item_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:text="Product Name"
+        android:layout_below="@+id/selected_item_Image"
+        android:textSize="25sp"
+        android:textColor="@android:color/widget_edittext_dark"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs-"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/selected_item_Name"
+        android:textSize="35sp"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/selected_item_Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="99999999.999"
+        android:layout_marginStart="67dp"
+        android:layout_below="@+id/selected_item_Name"
+        android:textSize="35sp"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:columnCount="2"
+        android:layout_marginBottom="10dp">
+        <Button
+            android:id="@+id/buy_now_btn"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight=".50"
+            android:background="@android:color/holo_green_dark"
+            android:text="Buy Now"
+            android:textSize="25sp"
+
+            />
+        <Button
+            android:id="@+id/add_to_cart_btn"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight=".50"
+            android:background="@android:color/holo_blue_bright"
+            android:text="Add To Cart"
+            android:textSize="25sp"
+            />
+    </GridLayout>
+</RelativeLayout>

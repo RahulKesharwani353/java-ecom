@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="200dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_height="310dp"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/itemCardView"
+    android:padding="50dp"
+    app:cardBackgroundColor="@color/cardview_light_background"
+    android:elevation="3dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        >
+    <ImageView
+        android:id="@+id/itemViewImage"
+        android:padding="10dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/insert_photo_24"
+
+        android:scaleType="centerCrop"
+        >
+
+    </ImageView>
+    <TextView
+        android:id="@+id/itemViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ProductName"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginTop="220dp"
+        android:layout_centerHorizontal="true"
+        />
+
+        <TextView
+            android:id="@+id/itemViewPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/itemViewName"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

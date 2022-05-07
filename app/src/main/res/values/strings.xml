@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ECom</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">UserName</string>
+    <string name="nav_header_subtitle">email@email.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">cart</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">My cart</string>
+    <string name="menu_slideshow">Value</string>
+    <string name="title_activity_user_home">UserHomeActivity</string>
+    <string name="Logout">Logout</string>
+</resources>
